@@ -28,7 +28,7 @@ with st.sidebar:
       llm = "meta/llama-2-70b-chat:02e509c789964a7ea8736978a43525956ef40397be9033abf9fd2badfe68c9e3"
     temperature = st.sidebar.slider('temperature', min_value=0.01, max_value=5.0, value=0.5, step=0.01)
     top_p = st.sidebar.slider('top_p', min_value=0.01, max_value=1.0, value=0.9, step=0.01)
-    max_length = st.sidebar.slider('max_length', min_value=32, max_value=500, value=120, step=16)
+    max_length = st.sidebar.slider('max_length', min_value=32, max_value=500, value=225, step=16)
     st.markdown('📖 Learn how to build this app in this [blog](https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/)!')
 
 # Store LLM generated responses
