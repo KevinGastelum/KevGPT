@@ -11,7 +11,7 @@ st.set_page_config(page_title="🦙💬 Welcome to KevGPT")
 
 # Replicate Credentials
 with st.sidebar:
-    st.title('Welcome to KevGPT 🦙💬')
+    st.title('Welcome to KevGPT 🧠💬')
     st.write('This AI chatbot is created using the open-source Llama_7b v2 LLM model from Meta.')
     
     # Use API key from st.secrets
